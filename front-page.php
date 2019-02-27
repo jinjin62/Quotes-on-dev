@@ -1,3 +1,4 @@
+<?php
 /**
 * The main template file.
 *
@@ -18,7 +19,6 @@ get_header(); ?>
             </h1>
         </header>
         <?php endif; ?>
-        <img src="wp-content/themes/quotesondev-starter-master/assets/qod-logo.svg" alt="quotes on dev logo">
         <?php  /* Start the Loop */ ?>
         <?php while (have_posts()): the_post(); ?>
 
