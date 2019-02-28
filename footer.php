@@ -20,7 +20,7 @@
         );
         ?>
 
-        <p>Brought to you by &copy; <a href="#" id="plug-link">Cirque du Soleil</a>
+        <p>Brought to you by &copy; <a href="#" id="plug-link">Goofs</a>
             <?php echo date('Y'); ?>
         </p>
 
