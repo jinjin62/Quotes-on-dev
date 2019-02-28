@@ -47,7 +47,7 @@ add_action('admin_init', 'qod_remove_comments_meta_boxes');
 
 function red_scripts()
 {
-    $script_url = get_template_directory_uri() . '../../js/scripts.js';
+    $script_url = get_template_directory_uri() . '/build/js/scripts.min.js';
     wp_enqueue_script('jquery');
     wp_enqueue_script('qod_scripts', $script_url, array('jquery'), false, true);
     wp_localize_script('qod_scripts', 'qod_vars', array(

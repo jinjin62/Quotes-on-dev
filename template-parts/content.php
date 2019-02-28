@@ -13,7 +13,8 @@
         <?php the_excerpt(); ?>
     </div><!-- .entry-content -->
     <header class="entry-header">
-        --
-        <?php the_title() ?>
+        <h2>-
+            <?php the_title() ?>
+            <h2>
     </header><!-- .entry-header -->
 </article><!-- #post-## --> 
